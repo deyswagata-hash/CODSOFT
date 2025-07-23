@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(28, 13, 45);
+    color:white;
+    font-family:'Poppins',sans-serif;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:80px;
+    background-color: rgb(189, 108, 213);
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(139, 26, 238);
+    font-size: 1.03rem;
+}
+main hr{
+    border:0;
+    background:rgb(139, 26, 238);
+    height:1.2px;
+    margin:40px 84px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.first{
+    display:flex;
+    justify-content: space-around;
+    margin:150px 0;
+    align-items: center;
+}
+.first>div{
+    width:30%;
+}
+.leftsec{
+
+    width:34px;
+    font-size: 3rem;
+    margin: 30px;
+}
+.leftsec p{
+    font-size: 1.5rem;
+}
+.leftsec .btn{
+    background: rgb(221, 150, 242);
+    padding:0.8rem 1.5rem;
+    margin-top:1rem;
+    display:inline-block;
+    border-radius: 22px;
+}
+.leftsec .btn:hover{
+    color: rgb(139, 26, 238);
+}
+.rightsec img{
+    width:120%;
+    margin:40px 0;
+    margin-right: auto;
+
+}
+.pink{
+    color:rgb(82, 95, 241);
+}
+.grey{
+    color:gray;
+}
+#element{
+    color:rgb(82, 95,241);
+}
+.secondsec{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+
+}
+.secondsec h1{
+    font-size:1.8rem;
+}
+.secondsec .box{
+    background: white;
+    width:78vw;
+    height:2px;
+    margin:56px 0;
+    display:flex;
+}
+.secondsec .vertical{
+    height:93px;
+    width:1px;
+    background-color: white;
+    margin:0 100px;
+}
+.vertical-txt{
+    position:relative;
+    top:60px;
+    width:150px;
+    
+ }
+.vertical-desc{
+    top:60px;
+    width:150px;
+    position:relative;
+    font-size:10px;
+    color:gray;
+}
+.dev-icon{
+    height:30px;
+    width:30px;
+    position: relative;
+    top:-32px;
+    left:-9px;
+ }
+
+footer{
+    background-color: rgb(22, 16, 28);
+    height:245px;
+
+}
+.footer>div{
+    width:220px;
+}
+.footer{
+    display:flex;
+    padding:23px 122px;
+    justify-content: space-evenly;
+}
+.footer-sec ul{
+    list-style: none;
+    display:flex;
+    
+    text-align:center;
+    padding:0;
+    margin:0;
+    
+}
+.footer-sec ul li{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    margin:0 12px;
+    font-weight:bold;
+}
+.www{
+    text-align: center;
+    color:gray;
+    font-size:15px;
+    padding:22px 0;
+}
+
+.footer-icon{
+    height:30px;
+    width:30px;
+    padding-left: 0cap;
+    margin-top:50px;
+    margin-inline: 10px;
+
+}
+.footer-icon:hover{
+    transform: scale(1.2);
+}
